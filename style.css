@@ -156,7 +156,7 @@
    margin-top: 42px;
  }
  .active {
-   color: #444444;
+   background-color: #444444;
  }
  .tabs span {
    padding: 12px 32px;
@@ -168,11 +168,10 @@
  
  .tabs span:nth-child(1) {
    border-radius: 28.5px 0px 0px 28.5px;
-   color: #444444;
  }
- .tabs span:nth-child(2) {
+ /* .tabs span:nth-child(2) {
    border: 1px solid #444444;
- }
+ } */
  .tabs span:nth-child(3) {
    border-radius: 0px 28.5px 28.5px 0px;
  }
@@ -182,7 +181,12 @@
    transition: .3s
  }
  
- .tabs span:focus {
+ /* .tabs span:active {
+   background-color: #444444;
+   color: #fff;
+   transition: .3s
+ } */
+ .active {
    background-color: #444444;
    color: #fff;
    transition: .3s
