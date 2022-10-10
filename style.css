@@ -1,0 +1,182 @@
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+ a {
+   text-decoration: none;
+   color: #03527B;
+ }
+ h1 {
+   font-size: 46px;
+   font-weight: 500;
+   margin-top: 83px;
+   line-height: 52px;
+ }
+ h2 {
+   color: #444444;
+   font-size: 46px;
+   line-height: 52px;
+   font-weight: 500;
+   text-align: center;
+ }
+ h3 {
+   font-size: 24px;
+   line-height:27px;
+   color: #444444;
+   margin-top: 21px;
+ }
+ body {
+   width: 1180px;
+   margin: auto;
+   font-weight: 500;
+   font-size: 14px;
+   margin-top: 15px;
+   font-family: 'Geometria';
+ }
+ button {
+   cursor: pointer;
+ }
+ header {
+   background: url('./images/line.png') -32px 471px no-repeat,
+   url('./images/fff.png') 343px top no-repeat;
+   border-radius: 20px;
+   height: 569px;
+   background-color: #03527B;
+ }
+ .topBlock {
+   display: flex;
+   justify-content: space-between;
+ }
+ .logo {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   color: #fff;
+   margin-top: 28px;
+   margin-left: 100px;
+   width: 76px;
+   height: 53px;
+   font-size: 14px;
+ }
+ .menu {
+   width: 334px;
+   line-height:158%;
+   margin-top: 44px;
+ }
+ .menu ul {
+   display: flex;
+   justify-content: space-around;
+   list-style: none;
+ }
+ .contact {
+   display: flex;
+   flex-direction: column;
+   align-items:center;
+   margin: 46px 98px 0 0;
+   color: #fff;
+   line-height: 17px;
+   font-weight: 400;
+ }
+ .contact button {
+   width: 160px;
+   height: 27px;
+   background-color: inherit;
+   border: 1px solid #fff;
+   color: #fff;
+   border-radius: 28.5px;
+   margin-bottom: 9px;
+ }
+ .macBook {
+   position: absolute;
+   margin-top: 100px;
+   margin-left: 320px;
+ }
+ .headerInfo {
+   margin-left: 100px;
+   color: #fff;
+ }
+ .headerInfo p {
+   width: 264px;
+   font-weight: 400;
+   margin-top: 24px;
+   line-height:157%;
+   font-style: normal;
+ }
+ .buttonBlock {
+   display: flex;
+ }
+ .buttonBlock button {
+   border-radius: 28px;
+   background-color: inherit;
+   color: #fff;
+   padding: 11px 24px;
+   margin-top: 40px;
+   font-size: 12px;
+   border: 1px solid #fff;
+   cursor: pointer;
+ }
+ .buttonBlock button:nth-child(2) {
+   margin-left: 16px;
+ }
+
+ .portfolio {
+   margin-top: 187px;
+ }
+ .portfolio p {
+   color: #676767;
+   line-height: 24px;
+   font-size: 18px;
+ }
+
+ .portfolio p:nth-child(2) {
+   text-align: center;
+   margin-top: 18px;
+ }
+ .tabs {
+   display: flex;
+   justify-content: center;
+   margin-top: 42px;
+ }
+ .tabs span {
+   padding: 12px 32px;
+   line-height: 18px;
+   color: #444444;
+   border: 1px solid #444444;
+ }
+ .tabs span:nth-child(1) {
+   border-radius: 28.5px 0px 0px 28.5px;
+   background-color: #444444;
+   color: #fff;
+ }
+ .tabs span:nth-child(2) {
+   border: 1px solid #444444;
+ }
+ .tabs span:nth-child(3) {
+   border-radius: 0px 28.5px 28.5px 0px;
+ }
+
+ .products {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 63px;
+   padding-bottom: 42px;
+ }
+ .product {
+   width: 372px;
+   height: 446px;
+ }
+ .product button {
+   padding: 9px 30px 8px 29px;
+   border-radius: 20px;
+   background-color: #fff;
+   color: #444444;
+   border: 1px solid #444444;
+ }
+ .product p {
+   margin-top: 12px;
+ }
+ .product button {
+   margin-top: 14px;
+ }
