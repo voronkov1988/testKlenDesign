@@ -32,7 +32,6 @@
    font-weight: 500;
    font-size: 14px;
    margin-top: 15px;
-   font-family: 'Geometria';
  }
  button {
    cursor: pointer;
@@ -70,6 +69,10 @@
    justify-content: space-around;
    list-style: none;
  }
+ .menu ul li:hover{
+   transition: .3s;
+   transform: scale(1.2)
+ }
  .contact {
    display: flex;
    flex-direction: column;
@@ -87,6 +90,12 @@
    color: #fff;
    border-radius: 28.5px;
    margin-bottom: 9px;
+   transition: .3s;
+ }
+ .contact button:hover{
+   background-color: #fff;
+   color: #03527B;
+   transition: .3s
  }
  .macBook {
    position: absolute;
@@ -116,6 +125,13 @@
    font-size: 12px;
    border: 1px solid #fff;
    cursor: pointer;
+   transition: .3s;
+ }
+ .buttonBlock button:hover {
+   background-color: #fff;
+   color: #03527B;
+   transform: scale(1.1);
+   transition: .3s
  }
  .buttonBlock button:nth-child(2) {
    margin-left: 16px;
@@ -139,16 +155,20 @@
    justify-content: center;
    margin-top: 42px;
  }
+ .active {
+   color: #444444;
+ }
  .tabs span {
    padding: 12px 32px;
    line-height: 18px;
-   color: #444444;
+   cursor: pointer;
    border: 1px solid #444444;
+   transition: .3s
  }
+ 
  .tabs span:nth-child(1) {
    border-radius: 28.5px 0px 0px 28.5px;
-   background-color: #444444;
-   color: #fff;
+   color: #444444;
  }
  .tabs span:nth-child(2) {
    border: 1px solid #444444;
@@ -156,7 +176,17 @@
  .tabs span:nth-child(3) {
    border-radius: 0px 28.5px 28.5px 0px;
  }
-
+ .tabs span:hover {
+   background-color: #444444;
+   color: #fff;
+   transition: .3s
+ }
+ 
+ .tabs span:focus {
+   background-color: #444444;
+   color: #fff;
+   transition: .3s
+ }
  .products {
    display: flex;
    justify-content: space-between;
@@ -173,6 +203,12 @@
    background-color: #fff;
    color: #444444;
    border: 1px solid #444444;
+   transition: .3s
+ }
+ .product button:hover {
+   background-color: #444444;
+   color: #fff;
+   transition: .3s
  }
  .product p {
    margin-top: 12px;
