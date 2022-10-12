@@ -230,7 +230,8 @@ header {
   border-radius: 20px;
   background-color: #fff;
   color: #444444;
-  margin-left: 4px;
+  font-family: 'Geometria';
+  /* margin-left: 4px; */
   border: 1px solid #444444;
   transition: 0.3s;
 }
